@@ -1,4 +1,4 @@
-﻿# SmoothWay
+﻿# SmoothWay: Context-Aware Driving Comfort for Route Recommendation
 
 SmoothWay is an ML-powered route recommendation app that goes beyond fastest-path navigation and tries to recommend a route that feels more comfortable to drive.
 
@@ -158,17 +158,19 @@ Then scan the QR code using **Expo Go SDK 51**.
 
 ## Model Details
 
-- Model: `RandomForestRegressor`
+- Algorithm: `RandomForestRegressor`
 - Trees: `200`
 - Max depth: `12`
-- Core input features:
-  - road type score
+- Training samples: `5000`
+- Comfort feature set includes:
+  - road type
   - average speed
   - turn count
   - elevation gain
   - weather score
   - time-of-day score
   - distance
+  - and additional derived route-quality indicators
 - Output: comfort score on a `0-100` scale
 
 ## Data Sources

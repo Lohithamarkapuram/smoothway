@@ -1,0 +1,26 @@
+﻿# Node / Expo
+mobile/node_modules/
+mobile/.expo/
+
+# Python
+backend/__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Environment / local config
+.env
+.env.*
+
+# LaTeX / generated docs if added later
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz

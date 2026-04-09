@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "SmoothWay",
+    "slug": "smoothway",
+    "version": "1.0.0",
+    "sdkVersion": "51.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#080d12"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#080d12"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

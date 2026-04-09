@@ -26,6 +26,7 @@ The system evaluates route quality using factors such as:
 - weather conditions
 - time of day
 - POI density and lighting proxies for women-safety estimation
+- lighting and isolation proxies (important for women-safety scoring)
 
 ## Tech Stack
 
@@ -76,8 +77,9 @@ smoothway/
 4. The backend extracts route features from each alternative.
 5. Weather and safety-related context are added.
 6. The ML model predicts a comfort score for each route.
-7. Routes are ranked based on the selected preference.
-8. The best route is displayed in the mobile app with map and navigation details.
+7. For Women Safety mode, additional weighting is given to safety-related features such as higher POI density, better lighting conditions, and less isolated routes.
+8. Routes are ranked based on the selected preference.
+9. The best route is displayed in the mobile app with map and navigation details.
 
 ## Setup
 

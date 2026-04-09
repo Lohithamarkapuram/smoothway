@@ -1,4 +1,4 @@
-# SmoothWay — ML-Powered Comfort Route Recommendation App
+# SmoothWay : Context-Aware driving comfort for route recommendation
 
 ## Quick Setup
 
@@ -71,7 +71,7 @@ Scan the QR code with Expo Go SDK 51 on your phone.
 ## ML Model
 
 - Algorithm: RandomForestRegressor (200 trees, max depth 12)
-- Input: 7 comfort features (road type, speed, turns, elevation, weather, time, distance)
+- Input: 14 comfort features (road type, speed, turns, elevation, weather, time, distance etc)
 - Output: Comfort score 0–100
 - Training: 5000 synthetic samples
 

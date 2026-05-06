@@ -2,7 +2,8 @@
 
 SmoothWay is an ML-powered route recommendation app that goes beyond fastest-path navigation and tries to recommend a route that feels more comfortable to drive.
 
-[![Watch Video](https://drive.google.com/file/d/1yk66npcWdqPxQ-jq1jFZxao4qAzF48jH/view?usp=drive_link)
+![Watch Video](https://drive.google.com/file/d/1yk66npcWdqPxQ-jq1jFZxao4qAzF48jH/view?usp=drive_link)
+
 It combines:
 - a Flask backend for route scoring and API integration
 - a React Native + Expo mobile app for search, route selection, and navigation
